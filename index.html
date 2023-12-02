@@ -623,6 +623,7 @@
         </div>
       </div>
     </footer>
+    <!-- backdrop -->
     <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-button" type="button">
@@ -723,15 +724,26 @@
 
           <div class="modal-form-checkbox-wrapper">
             <input
-              class="modal-form-checkbox"
+              class="modal-form-checkbox visually-hidden"
               id="user-privacy-policy"
               name="user-privacy-policy"
               type="checkbox"
+              value="true"
               required
             />
             <label
               class="modal-form-checkbox-description"
               for="user-privacy-policy"
+              ><span class="modal-form-own-checkbox"
+                ><svg
+                  class="modal-form-own-checkbox-icon"
+                  width="10"
+                  height="8"
+                  aria-label="checkmark icon"
+                >
+                  <use
+                    href="./images/icons.svg#icon-checkmark"
+                  ></use></svg></span
               >I accept the terms and conditions of the
               <a href="" class="modal-checkbox-description-privacy-policy-link"
                 >Privacy Policy</a
