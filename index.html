@@ -591,34 +591,28 @@
         </div>
 
         <div class="footer-subscribe-form-container">
+          <p class="footer-subscribe-form-description">Subscribe</p>
           <form class="footer-subscribe-form">
-            <label
-              class="footer-subscribe-form-description"
-              for="footer-user-email"
-              >Subscribe</label
-            >
-            <div class="footer-subscribe-form-button-wrapper">
-              <input
+            <label class="footer-subscribe-form-label"
+              ><input
                 class="footer-subscribe-form-input"
-                id="footer-user-email"
-                name="user-email"
-                type="text"
+                name="fppter-user-email"
+                type="email"
                 placeholder="E-mail"
                 required
-              />
+            /></label>
 
-              <button class="footer-subscribe-button" type="submit">
-                Subscribe
-                <svg
-                  class="footer-subscribe-button-icon"
-                  width="24"
-                  height="24"
-                  aria-label="subscribe button icon"
-                >
-                  <use href="./images/icons.svg#icon-subscribe-frame"></use>
-                </svg>
-              </button>
-            </div>
+            <button class="footer-subscribe-button" type="submit">
+              Subscribe
+              <svg
+                class="footer-subscribe-button-icon"
+                width="24"
+                height="24"
+                aria-label="subscribe button icon"
+              >
+                <use href="./images/icons.svg#icon-subscribe-frame"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -655,7 +649,7 @@
               <svg
                 class="modal-input-icon"
                 width="18"
-                height="18"
+                height="24"
                 aria-label="person icon"
               >
                 <use href="./images/icons.svg#icon-person"></use>
@@ -678,7 +672,7 @@
               <svg
                 class="modal-input-icon"
                 width="18"
-                height="18"
+                height="24"
                 aria-label="phone icon"
               >
                 <use href="./images/icons.svg#icon-phone"></use>
@@ -701,7 +695,7 @@
               <svg
                 class="modal-input-icon"
                 width="18"
-                height="18"
+                height="24"
                 aria-label="email icon"
               >
                 <use href="./images/icons.svg#icon-email"></use>
@@ -709,7 +703,7 @@
             </div>
           </div>
 
-          <div class="modal-form-textarea-wrapper">
+          <div class="modal-form-input-wrapper">
             <label class="modal-form-textarea-label" for="user-comment"
               >Comment</label
             >
@@ -725,15 +719,13 @@
           <div class="modal-form-checkbox-wrapper">
             <input
               class="modal-form-checkbox visually-hidden"
-              id="user-privacy-policy"
-              name="user-privacy-policy"
+              id="user-privacy"
+              name="user-privacy"
               type="checkbox"
               value="true"
               required
             />
-            <label
-              class="modal-form-checkbox-description"
-              for="user-privacy-policy"
+            <label class="modal-form-checkbox-description" for="user-privacy"
               ><span class="modal-form-own-checkbox"
                 ><svg
                   class="modal-form-own-checkbox-icon"
